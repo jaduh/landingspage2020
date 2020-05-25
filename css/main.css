@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+html{
+  font-size: 62.5%;
+}
+
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+
+body{
+  background: #fff;
+  font-family: 'Oswald', sans-serif;
+}
+
+
+
+section{
+width: 100vw;
+min-height: 90vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+
+
+
+button{
+
+  padding: .5rem;
+  color: white;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  border: 1px solid white;
+  background: #f9cfd3;
+  margin:.2rem 0;
+}
+
+.homepage-grid{
+  padding:2rem;
+  text-transform: uppercase;
+}
+
+.site-title{
+  text-align: center;
+  color: #2e519f;
+  font-size: 1.5rem;
+  width: 90vw;
+}
+
+.saas{
+  text-transform: none;
+}
+
+.site-title h3{
+  color: tomato;
+}
+
+a{
+  color:tomato;
+}
+.site-title p{
+  color: #555;
+  text-transform:none;
+  font-family: monospace;
+}
+
+.mono{
+  margin-top:1.5rem;
+  font-size: 2rem;
+  text-align: left;
+  color: #555;
+}
+.enter{
+  display: block;
+}
+
+.spatie{
+  margin: 3rem;
+}
+
+.hoofdfoto{
+  background: url("../images/ik.JPG") ;
+  background-size: cover;
+
+
+  height: 70vh;
+  width: 90vw;
+}
+.hoofdfoto-hireme{
+  background: url("../images/growth.jpg") ;
+  background-size: cover;
+  background-position: center;
+
+
+  height: 70vh;
+
+}
+
+
+@media (min-device-width:550px) {
+  .hoofdfoto{
+
+      background-position: bottom;
+      background-size: cover;
+  }
+}
+
+@media (min-device-width:1050px) {
+  .hoofdfoto{
+
+      background-position: 50% 90%;
+      width:50%;
+      background-size: cover;
+  }
+  .site-title{
+        width:50%;
+        text-align: left;
+}
+
+}
