@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Playfair+Display&family=Six+Caps&&display=swap');
 html{
   font-size: 62.5%;
 }
@@ -11,116 +11,190 @@ html{
 
 
 body{
-  background: #fff;
+
   font-family: 'Oswald', sans-serif;
 }
 
-
-
 section{
 width: 100vw;
-min-height: 90vh;
+height: 70vh;
+}
+
+
+.homepage-foto{
 display: flex;
 flex-direction: column;
-align-items: center;
-justify-content: center;
+
+
+
+  width: 100%;
+  height: 100%;
+background:  url("/images/jadepic.jpg");
+
+  background-position: center;
+  background-size: cover;
 }
 
 
 
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding:3rem;
+  height: 10%;
+  color:#f8887c;
 
-button{
-
-  padding: .5rem;
-  color: white;
-  text-transform: uppercase;
-  font-family: sans-serif;
-  letter-spacing: 2px;
-  border: 1px solid white;
-  background: #f9cfd3;
-  margin:.2rem 0;
 }
 
-.homepage-grid{
-  padding:2rem;
-  text-transform: uppercase;
-}
 
-.site-title{
+.titel{
+  height: 80%;
   text-align: center;
-  color: #2e519f;
-  font-size: 1.5rem;
-  width: 90vw;
+
+
 }
 
-.saas{
-  text-transform: none;
+.nieuwsbrief{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+
 }
 
-.site-title h3{
-  color: tomato;
+.homepage-foto h1{
+letter-spacing: .5rem;
+color:#f8887c;
+text-transform: uppercase;
+
+    text-shadow: .5px 1.5px white;
+
+  font-size: 1.7rem;
+  margin:1rem;
+
 }
 
-a{
-  color:tomato;
-}
-.site-title p{
-  color: #555;
-  text-transform:none;
-  font-family: monospace;
+
+
+
+.deel-twee{
+  background-color: #fee9da;
+  color: #444;
+  padding: 2rem;
 }
 
-.mono{
-  margin-top:1.5rem;
-  font-size: 2rem;
-  text-align: left;
-  color: #555;
-}
 .enter{
   display: block;
 }
 
-.spatie{
-  margin: 3rem;
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.hoofdfoto{
-  background: url("../images/ik.JPG") ;
-  background-size: cover;
+.center-mob{
 
-
-  height: 70vh;
-  width: 90vw;
-}
-.hoofdfoto-hireme{
-  background: url("../images/growth.jpg") ;
-  background-size: cover;
-  background-position: center;
-
-
-  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+padding: 2rem;
 
 }
+
+.center-mob h1{
+color:#f8887c;
+font-size: 3.2rem;
+margin-bottom:2rem;
+text-shadow: 2px 2px white;
+text-transform: uppercase;
+margin:4rem;
+}
+.arrow {
+  border: solid #444;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-top:2rem;
+}
+
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
 
 
 @media (min-device-width:550px) {
-  .hoofdfoto{
+  .homepage-foto{
 
       background-position: bottom;
       background-size: cover;
+
+
+
   }
+
+  .center-mob h2{
+font-size: 2.5rem;
+  }
+
+  .enter-large{
+    display: block;
+  }
+
+  section{
+    height: 80vh;
+  }
+
+.header{
+    font-size: 2rem;
 }
 
-@media (min-device-width:1050px) {
-  .hoofdfoto{
+}
+
+@media (min-device-width:600px) {
+
+  .enter{
+    display:inline;
+
+  }
+
+  .homepage-foto{
 
       background-position: 50% 90%;
-      width:50%;
+
       background-size: cover;
+
   }
-  .site-title{
-        width:50%;
-        text-align: left;
+  .homepage-foto h1{
+    width:80%;
+    color:#f8887c;
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
+    text-shadow: 1.2px 1.5px white;
+
+
+
+    letter-spacing: .2rem;
+
+  }
+
 }
+
+@media (min-device-width:800px) {
+  .homepage-foto h1{
+
+
+font-size: 3rem;
+
+
+  }
+
+
+
 
 }
