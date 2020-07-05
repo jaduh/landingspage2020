@@ -87,7 +87,7 @@ input[type=checkbox]:checked ~ #menu{
     }
     /*Make all menu links full width*/
     ul li, li a {
-        min-width: 80vw;
+        width: 50vw;
         height: 15vh;
         margin: 1rem 0;
         font-size: 1.5rem;
