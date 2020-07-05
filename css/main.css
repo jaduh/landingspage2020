@@ -11,7 +11,7 @@ html{
 
 
 body{
-
+ background-color: #fee9da;
   font-family: 'Oswald', sans-serif;
 }
 
@@ -24,12 +24,12 @@ height: 70vh;
 .homepage-foto{
 display: flex;
 flex-direction: column;
+margin: 4rem;
 
 
-
-  width: 100%;
-  height: 100%;
-background:  url("/images/jadepic.jpg");
+  width: 80%;
+  height: 90%;
+background:  url("/images/planten.jpg");
 
   background-position: center;
   background-size: cover;
@@ -61,6 +61,16 @@ background:  url("/images/jadepic.jpg");
   display: flex;
   justify-content: center;
 
+
+}
+
+.nieuwsbrief-uitleg{
+text-align:justify;
+padding:  1rem;
+  font-size: 1.7rem;
+margin-top: 1rem;
+display: flex;
+justify-content: center;
 
 }
 
@@ -214,5 +224,12 @@ font-size: 3rem;
         display: flex;
 
       }
+      .nieuwsbrief-uitleg{
 
+      padding: 2rem 7rem 1rem 7rem;
+        font-size: 1.8rem;
+      margin-top: 1rem;
+
+
+      }
     }
