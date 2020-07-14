@@ -1,4 +1,14 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding:3rem;
+  height: 10%;
+  color:#f8887c;
 
+      font-size: 2rem;
+
+
+}
 
 .post {
   position: relative;
@@ -15,11 +25,13 @@
   font-size: 1.8rem;
   font-weight: 600;
   margin: 20px 0 10px;
+  color: #f8887c
 }
 
 .post__content {
   font-size: 1.3rem;
   margin-bottom: 50px;
+  color: #4a4a4a;
 }
 
 .post__category,
@@ -38,25 +50,25 @@
 }
 
 .pink {
-  background: #ffdae0;
+  background: #fee9da;
 }
 
 .gray {
-  background: #e7f0da;
+  background: #fee9da;
 }
 
 .green {
-  background: #ddebd0;
+  background: #fee9da;
 }
 
 .gold {
-  background: #fcf5b6;
+    background: #fee9da;
 }
 
 .blue {
-  background: #cae9ef;
+  background: #fee9da;
 }
 
 .red {
-  background: #f8c9c1;
+  background: #fee9da;
 }

@@ -16,12 +16,12 @@ li a {
     line-height: 50px;
 
     color: #fff;
-    background: #f8887c;
+    background: #fee9da;
     text-decoration: none;
 }
 /*Hover state for top level links*/
 li:hover a {
-    background: #fee9da;
+    background: white;
     color:#f8887c;
 }
 /*Style for dropdown links*/

@@ -17,7 +17,26 @@ body{
 
 section{
 width: 100vw;
-height: 70vh;
+height: 90vh;
+}
+
+
+
+a:link {
+  text-decoration: none;
+  color:#f8887c;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #f8887c;
+}
+
+a:hover{
+  background-color: white;
+}
+.enters{
+  display: block;
 }
 
 
@@ -37,7 +56,32 @@ background:  url("/images/planten2.jpg");
 
 }
 
+.about-foto{
+  display: flex;
+  flex-direction: column;
+  margin: 4rem;
 
+
+    width: 80%;
+    height: 90%;
+  background:  url("/images/jadepic.jpg");
+
+    background-position: center;
+    background-size: cover;
+}
+
+.about-center{
+  display: flex;
+align-items: center;
+  width: 100vw;
+  margin-top: 3rem;
+  padding: 0 8rem;
+  flex-direction: column;
+}
+
+.about-uitleg{
+
+}
 
 .header{
   display: flex;
@@ -64,14 +108,19 @@ background:  url("/images/planten2.jpg");
 
 }
 
+
 .nieuwsbrief-uitleg{
 text-align:justify;
 padding:  1rem;
   font-size: 1.7rem;
 margin-top: 1rem;
-display: flex;
-justify-content: center;
+color:#444;
 
+
+}
+
+.talent-content h3{
+  margin: 1rem;
 }
 
 .homepage-foto h1{
@@ -93,11 +142,37 @@ text-transform: uppercase;
   background-color: #fee9da;
   color: #444;
   padding: 2rem;
+
+  height: auto;
+  display: block;
 }
 
+.deel-drie{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: justify;
+ width: 100vw;
+}
+
+.talent-content{
+  width: 80vw;
+  line-height: 150%;
+}
+
+.talents-ruimte{
+  margin:1rem;
+  padding:1rem;
+  background:rgba(255,255,255, 0.6);
+  -webkit-box-shadow: 11px 1px 27px -21px rgba(0,0,0,0.75);
+  -moz-box-shadow: 11px 1px 27px -21px rgba(0,0,0,0.75);
+  box-shadow: 11px 1px 27px -21px rgba(0,0,0,0.75);
+}
 .enter{
   display: block;
 }
+.left{text-align: left;}
+
 
 .center{
   display: flex;
@@ -165,6 +240,9 @@ font-size: 2.5rem;
 .header{
     font-size: 2rem;
 }
+.talent-content{
+  width: 80vw;
+}
 
 }
 
@@ -194,6 +272,13 @@ font-size: 2.5rem;
     letter-spacing: .2rem;
 
   }
+  .scroll{
+    max-height: 90vh;
+    overflow: scroll;
+  }
+  .talent-content{
+    width: 50vw;
+  }
 
 }
 
@@ -206,7 +291,7 @@ font-size: 3rem;
   }
   .nieuwsbrief-uitleg{
 
-  padding: 2rem 7rem 2rem 7rem;
+  padding: .5rem 7rem .5rem 7rem;
     font-size: 2rem;
   margin: .5rem 2rem;
 
@@ -231,6 +316,7 @@ font-size: 3rem;
     }
       .divider{
         display: flex;
+
 
       }
 
