@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Playfair+Display&family=Six+Caps&&display=swap');
+html{
+  font-size: 62.5%;
+}
+
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+
+body{
+ background-color: #fee9da;
+  font-family: 'Oswald', sans-serif;
+}
+
+section{
+width: 100vw;
+height: 90vh;
+}
+
+
+
+a:link {
+  text-decoration: none;
+  color:#f8887c;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #f8887c;
+}
+
+a:hover{
+  background-color: white;
+}
+.enters{
+  display: block;
+}
+
+
+.links{
+display: flex;
+flex-direction: column;
+margin: 4rem;
+
+background: white;
+  width: 40%;
+  height: 90%;
+
+
+  background-position: center;
+  background-size: cover;
+
+
+}
+
+.ondertitel{
+  color: #333;
+  font-size: 1rem;
+}
+
+.about-foto{
+  display: flex;
+  flex-direction: column;
+  margin: 4rem;
+
+
+    width: 80%;
+    height: 90%;
+  background:  url("/images/jadepic.jpg");
+
+    background-position: center;
+    background-size: cover;
+}
+
+.about-center{
+  display: flex;
+align-items: center;
+  width: 100vw;
+  margin-top: 3rem;
+  padding: 0 8rem;
+  flex-direction: column;
+}
+
+.about-uitleg{
+
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding:3rem;
+  height: 10%;
+  color:#f8887c;
+
+}
+
+
+.titel{
+  height: 80%;
+  text-align: center;
+
+
+}
+
+.nieuwsbrief{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+
+}
+
+
+.nieuwsbrief-uitleg{
+text-align:justify;
+padding:  1rem;
+  font-size: 1.7rem;
+margin-top: 1rem;
+color:#444;
+
+
+}
+
+.talent-content h3{
+  margin: 1rem;
+}
+
+.homepage-foto h1{
+letter-spacing: .5rem;
+color:#f8887c;
+text-transform: uppercase;
+
+    text-shadow: .5px 1.5px white;
+
+  font-size: 1.7rem;
+  margin:1rem;
+
+}
+
+
+
+
+.deel-twee{
+  background-color: #fee9da;
+  color: #444;
+  padding: 2rem;
+
+  height: auto;
+  display: block;
+}
+
+.deel-drie{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: justify;
+ width: 100vw;
+}
+
+.talent-content{
+  width: 80vw;
+  line-height: 150%;
+}
+
+.talents-ruimte{
+  margin:1rem;
+  padding:1rem;
+  background:rgba(255,255,255, 0.6);
+  -webkit-box-shadow: 11px 1px 27px -21px rgba(0,0,0,0.75);
+  -moz-box-shadow: 11px 1px 27px -21px rgba(0,0,0,0.75);
+  box-shadow: 11px 1px 27px -21px rgba(0,0,0,0.75);
+}
+.enter{
+  display: block;
+}
+.left{text-align: left;}
+
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-mob{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+padding: 2rem;
+
+}
+
+.center-mob h1{
+color:#f8887c;
+font-size: 3.2rem;
+margin-bottom:2rem;
+text-shadow: 2px 2px white;
+text-transform: uppercase;
+margin:4rem;
+}
+.arrow {
+  border: solid #444;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-top:2rem;
+}
+
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+
+
+@media (min-device-width:550px) {
+  .homepage-foto{
+
+      background-position: bottom;
+      background-size: cover;
+
+
+
+  }
+
+  .center-mob h2{
+font-size: 2.5rem;
+  }
+
+  .enter-large{
+    display: block;
+  }
+
+  section{
+    height: 80vh;
+  }
+
+.header{
+    font-size: 2rem;
+}
+.talent-content{
+  width: 80vw;
+}
+
+}
+
+@media (min-device-width:600px) {
+
+  .enter{
+    display:inline;
+
+  }
+
+  .homepage-foto{
+
+      background-position: 50% 90%;
+
+      background-size: cover;
+
+  }
+  .homepage-foto h1{
+    width:80%;
+    color:#f8887c;
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
+    text-shadow: 1.2px 1.5px white;
+
+
+
+    letter-spacing: .2rem;
+
+  }
+  .scroll{
+    max-height: 90vh;
+    overflow: scroll;
+  }
+  .talent-content{
+    width: 50vw;
+  }
+
+}
+
+@media (min-device-width:800px) {
+  .homepage-foto h1{
+
+
+font-size: 3rem;
+
+  }
+  .nieuwsbrief-uitleg{
+
+  padding: .5rem 7rem .5rem 7rem;
+    font-size: 2rem;
+  margin: .5rem 2rem;
+
+
+
+  }
+
+
+}
+
+
+
+
+
+
+
+  @media (min-device-width:1200px) {
+
+    section{width: 50vw;
+          height: 100vh;
+
+    }
+      .divider{
+        display: flex;
+
+
+      }
+
+    }
